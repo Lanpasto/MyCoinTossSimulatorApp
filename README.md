@@ -11,4 +11,7 @@
 
 
 
-![XRecorder_Edited_03072023_153009](https://github.com/Lanpasto/MyCoinTossSimulatorApp/assets/77079137/bcbd0b97-2533-4401-bdbd-42a3a3be9780)
+
+
+https://github.com/Lanpasto/MyCoinTossSimulatorApp/assets/77079137/f264e271-7165-4fd3-a614-9ebab5f4ce29
+
