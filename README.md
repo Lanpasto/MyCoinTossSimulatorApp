@@ -15,6 +15,6 @@
 
 
 
+![video_2023-07-03_15-50-35 (online-video-cutter com)](https://github.com/Lanpasto/MyCoinTossSimulatorApp/assets/77079137/7619831e-9655-4c61-8981-648a8a1d9f8c)
 
-https://github.com/Lanpasto/MyCoinTossSimulatorApp/assets/77079137/7880896f-e81d-4af0-937e-2ca50a6307c1
 
