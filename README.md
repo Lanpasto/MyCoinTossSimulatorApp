@@ -7,3 +7,8 @@
 Нехай успіх супроводжує вас у вашому пригоді з металевою монетою!
 
 ![video_2023-07-03_00-39-19](https://github.com/Lanpasto/MyCoinTossSimulatorApp/assets/77079137/492cbadb-3109-4bad-86a8-03aa8c81d5a4)
+
+
+
+
+![XRecorder_Edited_03072023_153009](https://github.com/Lanpasto/MyCoinTossSimulatorApp/assets/77079137/bcbd0b97-2533-4401-bdbd-42a3a3be9780)
