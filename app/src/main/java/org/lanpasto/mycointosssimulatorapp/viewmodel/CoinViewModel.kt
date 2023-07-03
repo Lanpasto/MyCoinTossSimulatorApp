@@ -18,6 +18,7 @@ import org.lanpasto.mycointosssimulatorapp.model.Coin
 import org.lanpasto.mycointosssimulatorapp.model.CoinSide
 import java.util.Random
 
+
 class CoinViewModel : ViewModel() {
     private val coin = Coin()
     private var currentCoinSide: CoinSide = CoinSide.HEADS
@@ -34,6 +35,7 @@ class CoinViewModel : ViewModel() {
 
     fun flipCoin() {
         coin.flip()
+        Log.d("CoinViewModel", "Coin flipped")
     }
 
     @SuppressLint("ResourceType")
@@ -93,7 +95,7 @@ class CoinViewModel : ViewModel() {
         cross2.visibility = if (counter >= 2) View.VISIBLE else View.INVISIBLE
         cross3.visibility = if (counter >= 3) View.VISIBLE else View.INVISIBLE
 
-        Log.d("Check", "counter: $counter")
+        Log.d("CoinViewModel", "Counter: $counter")
 
         if (counter > 3) {
             if (coinSide == CoinSide.TAILS) {
@@ -109,15 +111,14 @@ class CoinViewModel : ViewModel() {
                 Toast.makeText(context, "Випало 3 рази поспіль HEADS!", Toast.LENGTH_SHORT).show()
             }
         }
-
     }
-
-
 
     @SuppressLint("ResourceType")
     fun onImageViewClick(view: View) {
         val animatorSet = AnimatorInflater.loadAnimator(view.context, R.anim.flip_animation) as AnimatorSet
         animatorSet.setTarget(view)
         animatorSet.start()
+
+        Log.d("CoinViewModel", "ImageView clicked")
     }
 }

@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import org.lanpasto.mycointosssimulatorapp.R
 import org.lanpasto.mycointosssimulatorapp.viewmodel.CoinViewModel
-
+import android.util.Log
 
 class MainActivity : AppCompatActivity() {
     private lateinit var coinViewModel: CoinViewModel
@@ -32,10 +32,12 @@ class MainActivity : AppCompatActivity() {
         flipButton.setOnClickListener {
             coinViewModel.flipCoin()
             updateCoinImage()
+            Log.d("MainActivity", "Coin flipped")
         }
 
         coinImageView.setOnClickListener {
             coinViewModel.onImageViewClick(it)
+            Log.d("MainActivity", "ImageView clicked")
         }
 
         updateCoinImage()
@@ -43,8 +45,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun updateCoinImage() {
         coinViewModel.updateCoinImage(coinImageView, cross1, cross2, cross3, this)
+        Log.d("MainActivity", "Coin image updated")
     }
 }
-
-
 
