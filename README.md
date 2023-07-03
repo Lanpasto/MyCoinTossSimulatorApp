@@ -13,5 +13,8 @@
 
 
 
-https://github.com/Lanpasto/MyCoinTossSimulatorApp/assets/77079137/f264e271-7165-4fd3-a614-9ebab5f4ce29
+
+
+
+https://github.com/Lanpasto/MyCoinTossSimulatorApp/assets/77079137/7880896f-e81d-4af0-937e-2ca50a6307c1
 
