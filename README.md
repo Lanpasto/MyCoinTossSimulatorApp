@@ -6,10 +6,13 @@
 одне значення випадає три рази поспіль, ви побачите спеціальне повідомлення.
 Нехай успіх супроводжує вас у вашому пригоді з металевою монетою!
 
-![video_2023-07-03_00-39-19](https://github.com/Lanpasto/MyCoinTossSimulatorApp/assets/77079137/492cbadb-3109-4bad-86a8-03aa8c81d5a4)
 
 
 
+
+
+
+https://github.com/Lanpasto/MyCoinTossSimulatorApp/assets/77079137/8233c344-f6b0-4cb4-89d0-d2809d14f58a
 
 
 
